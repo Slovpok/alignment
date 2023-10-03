@@ -1,0 +1,96 @@
+/*Общие стили*/
+.parent {
+    width: 500px;
+    height: 500px;
+    background: orange;
+ }
+.child {
+    width: 200px;
+    height: 200px;
+    background: rgb(59, 49, 49);
+ }
+ /*метод 1*/
+ /*.p1 {
+    position: relative;
+ }
+ .c1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }*/
+ /*метод 2*/
+ /*.p1 {
+    position: relative;
+ }
+ .c1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;    
+ }*/
+ /*метод 3*/
+ /*.p1 {
+    position: relative;
+ }
+ .c1 {
+    position: absolute;
+    inset: 0;
+    margin: auto;    
+ }*/
+ /*метод 4*/
+ /*.p1 {
+    display: flex;
+   justify-content: center;
+ }
+ .c1 {
+    align-self: center;      
+ }*/
+ /*метод 5*/
+ /*.p1 {
+    display: flex;
+ }
+ .c1 {
+    margin: auto;        
+ }*/
+ /*метод 6*/
+ /*.p1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+ }
+ .c1 {
+           
+ }*/
+ /*метод 7*/
+ /*.p1 {
+    display: grid;
+    place-items: center;
+ }
+ .c1 {
+           
+ }*/
+ /*метод 8*/
+ /*.p1 {
+    display: grid;
+ }
+ .c1 {
+    align-self: center;
+    justify-self: center;
+}*/
+/*метод 9*/
+/*.p1 {
+    display: grid;
+ }
+ .c1 {
+   place-self: center;
+}*/
+/*метод 10*/
+.p1 {
+    display: grid;
+ }
+ .c1 {
+   margin: auto;
+}
